@@ -1,0 +1,78 @@
+.navbar-header{
+	background-color: darkgray;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+}
+#navbar{
+	margin-top: -1px;
+}
+
+#navbar span{
+	font-size: 2em;
+	#color: black;
+	margin: 10px;
+}
+
+span#brand {
+	font-size: 3em;
+	font-weight: bolder;
+	color: black;
+	}
+
+h1{
+	font-weight: bolder;
+	padding-bottom: 20px;
+	margin-top: -10px;
+}
+
+div.menu-content{
+	height: 1000px;
+	background-color: darkgray;
+	font-weight: bolder;
+}
+.centrado{
+	float: none;
+	margin: 0 auto;
+}
+
+div.menu-title{
+	text-align: center;
+	font-size: 1.7em;
+}
+
+p.menu-info{
+	font-size: 1.2em;
+	padding: 15px 20px;
+}
+div#options-collapse-1 ul{
+	background-color: azure;
+	margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+div#options-collapse-1 li a{
+	color: black;
+	border-bottom: 3px solid;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+@media (min-width: 768px){
+	div.menu-content{
+		font-size: .9em;
+	}
+	#navbar{
+		background-color: darkgray;
+		border-top: 3px solid;
+		border-bottom: 3px solid;
+	}
+	span#brand {
+		font-size: 2em;
+		font-weight: bolder;
+	}
+	.navbar-header{
+		border-top: 0;
+		border-bottom: 0;
+	}
+}
+body{
+		font-family: 'Ubuntu', sans-serif;
+}
